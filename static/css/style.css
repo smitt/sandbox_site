@@ -1,0 +1,102 @@
+body{
+    background-image:  url(../img/images.jpg);
+}
+
+.centralize{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.top-padding{
+    padding-top: 20px;
+}
+
+.top-line{
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.forgot-link, .footer-links{
+    margin-left: 10px;
+}
+
+.social-login{
+    padding: 0 10px;
+}
+
+.githab-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.nav-menu > li{
+    text-align: right;
+}
+
+.nav-menu > li > a{
+    padding: 2px 15px;
+}
+
+.nav-menu > li > a:hover{
+    background-color: transparent;
+    margin: 0px;
+}
+
+.lang-div{
+    height: 76px;
+    padding-top: 10px;
+}
+
+.navbar-toggle {
+    background-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.sandbox-menu{
+    font-size: 16px;
+}
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus{
+    color: #428bca;
+    background-color: transparent;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: transparent;
+}
+
+.errorlist{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+/*
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+    background-color: #fff;
+}
+
+
+.nav .dropdown>a, .nav .dropdown>a:hover, .nav .dropdown>a:focus{
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+*/

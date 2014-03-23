@@ -1,0 +1,46 @@
+{% extends 'main.html' %}
+
+{% block content %}
+   <div class="container">
+        <div class="row">
+            <br/>
+            <div class="col-md-6 col-md-offset-3">
+                <!-- well container -->
+                <div class="well">
+
+                    <!-- login header -->
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            <h3><p class="text-center">Reset password</p></h3>
+                        </div>
+                    </div>
+                    <!-- end login header-->
+
+                    <!-- main form -->
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 top-line">
+                            <form class="form-horizontal" role="form">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="button" class="btn btn-primary">Send email</button>
+                                        <a href="/signin/" class="forgot-link">Cancel</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end of main form -->
+                </div>
+                <!-- end of well container -->
+            </div>
+        </div>
+    </div>
+{% endblock %}
